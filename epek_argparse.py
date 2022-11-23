@@ -19,13 +19,13 @@ def main():
 
 def operation(args):
     if args.operation == 'Ep1':
-        Ep1 = (((args.rho*(((args.r**3)*4/3)*22/7))*9.806)*args.h1)
+        Ep1 = (((args.rho*(((args.r*10**-2**3)*4/3)*22/7))*9.806)*args.h1)
         return Ep1
     elif args.operation == 'Ep2':
-        Ep2 = (((args.rho*(((args.r**3)*4/3)*22/7))*9.806)*args.h2)
+        Ep2 = (((args.rho*(((args.r*10**-2**3)*4/3)*22/7))*9.806)*args.h2)
         return Ep2
     elif args.operation == 'Ek2':
-        Ek2 = (((args.rho*(((args.r**3)*4/3)*22/7))*9.806)*args.h1)-(((args.rho*(((args.r**3)*4/3)*22/7))*9.806)*args.h2)
+        Ek2 = (((args.rho*(((args.r*10**-2**3)*4/3)*22/7))*9.806)*args.h1)-(((args.rho*(((args.r**3)*4/3)*22/7))*9.806)*args.h2)
         return Ek2
 
 if __name__ == '__main__':
