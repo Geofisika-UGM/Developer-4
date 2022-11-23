@@ -4,13 +4,13 @@ import sys
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--rho', type=float, default=1.0,
-                        help='What is the density number?')
+                        help='What is the density number in kg/m^3?')
     parser.add_argument('--r', type=float, default=1.0,
-                        help='What is the radius number?')
+                        help='What is the radius number in cm?')
     parser.add_argument('--h1', type=float, default=1.0,
-                        help='What is the height before falling freely number?')
+                        help='What is the height before falling freely number in m?')
     parser.add_argument('--h2', type=float, default=1.0,
-                        help='What is the height after falling in random height number?')
+                        help='What is the height after falling in random height number in m?')
     parser.add_argument('--operation', type=str, default='Ep1', 
                         help='What operation will you gonna use?')
 
